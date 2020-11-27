@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_vertical"
+    >
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        tools:text="bokbokb"
+        android:layout_marginStart="16dp"
+        android:layout_weight="5"
+        />
+
+    <ImageView
+        android:id="@+id/ivRemoveX"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/buttonx"
+        android:layout_weight="1"
+        android:padding="7dp"
+        />
+
+</LinearLayout>
